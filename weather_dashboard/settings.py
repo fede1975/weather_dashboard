@@ -28,6 +28,13 @@ DEBUG = True
 ALLOWED_HOSTS = ['weather-dashboard-p80t.onrender.com' ]
 
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://onrender.com',
+    'https://weather-dashboard-p80t.onrender.com',
+]
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
